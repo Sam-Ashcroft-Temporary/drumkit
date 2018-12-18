@@ -2,7 +2,7 @@
 h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blue;
+    color: purple;
 }
 
 .grid-container {
@@ -25,17 +25,150 @@ h1 {
 }
 
 #fingers1 {
-    width: 30vw;
+    width: 20vw;
     bottom: -10vw;
     left: 10vh;
     transform: rotateY(180deg) rotateZ(-20deg);
 }
 
 #fingers2 {
-    width: 30vw;
+    width: 20vw;
     bottom: -10vw;
     right: 10vh;
     transform: rotateZ(-20deg);
 }
 
+@keyframes move1key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: 10vw; 
+        left: -4vw;}
+    100% {bottom: -10vw;}
+}
 
+.move1 {
+    animation-name: move1key;
+    animation-duration: .2s;
+}
+ 
+@keyframes move2key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: 10vw; 
+        left: 15vw;}
+    100% {bottom: -10vw;}
+}
+
+.move2 {
+    animation-name: move2key;
+    animation-duration: .2s;
+}
+
+@keyframes move3key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: 10vw; 
+        left: 80vw;}
+    100% {bottom: -10vw;}
+}
+
+.move3 {
+    animation-name: move3key;
+    animation-duration: .2s;
+}
+
+@keyframes move4key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: 4vw; 
+        left: -4vw;}
+    100% {bottom: -10vw;}
+}
+
+.move4 {
+    animation-name: move4key;
+    animation-duration: .2s;
+}
+
+@keyframes move5key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: 4vw; 
+        left: 15vw;}
+    100% {bottom: -10vw;}
+}
+
+.move5 {
+    animation-name: move5key;
+    animation-duration: .2s;
+}
+
+@keyframes move6key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: 4vw; 
+        left: 80vw;}
+    100% {bottom: -10vw;}
+}
+
+.move6 {
+    animation-name: move6key;
+    animation-duration: .2s;
+}
+
+@keyframes move7key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: -1vw; 
+        left: -4vw;}
+    100% {bottom: -10vw;}
+}
+
+.move7 {
+    animation-name: move7key;
+    animation-duration: .2s;
+}
+
+@keyframes move8key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: -1vw; 
+        left: 60vw;}
+    100% {bottom: -10vw;}
+}
+
+.move8 {
+    animation-name: move8key;
+    animation-duration: .2s;
+}
+
+@keyframes move9key {
+    /* from {font-size: 10px}
+    to {font-size: 50px} */
+    0% {bottom: -10vw;}
+    50% {bottom: -1vw; 
+        left: 80vw;}
+    100% {bottom: -10vw;}
+}
+
+.move9 {
+    animation-name: move9key;
+    animation-duration: .2s;
+}
+
+ p {
+    /* animation-name: move1key; */
+    font-size: 10px;
+    /* animation-duration: 3s; */
+    /* animation-iteration-count: infinite; */
+}
+
+ 
