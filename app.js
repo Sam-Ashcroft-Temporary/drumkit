@@ -1,7 +1,4 @@
 
-
-// var audio9 = new Audio('sounds/tom.wav');
-
 document.addEventListener('keypress', () => {
     var button = event.key;
     if (button === 'r') {
@@ -49,17 +46,7 @@ document.addEventListener('keypress', () => {
         document.getElementById('9').style.backgroundColor = 'red'
         var element = document.getElementById('fingers2');
         element.classList.add('move9');
-    } // else {
-    //     document.getElementById('1').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('2').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('3').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('4').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('5').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('6').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('7').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('8').style.backgroundColor = 'forestgreen'
-    //     document.getElementById('9').style.backgroundColor = 'forestgreen'
-    // }
+    } 
 })
 
 document.addEventListener('keyup', () => {
@@ -103,8 +90,3 @@ document.addEventListener('keyup', () => {
     }
 }
 )
-
-// document.addEventListener('keypress', () => {
-//     document.getElementsByTagName('p').classList.toggle('move1')
-//  }
-//  )
